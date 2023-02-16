@@ -1,0 +1,75 @@
+/*navigation*/
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+
+/* home */
+#home{
+height: 370px;
+padding: 3px 68px;
+
+}
+#home::before{
+    height: 480px;
+    
+    }
+
+#home p{
+    font-size: 14px;
+}    
+
+
+
+/* service section*/
+#services{
+flex-direction: column;
+}
+
+#services .box{
+padding: 14px;
+margin: 2px 0px;
+margin-bottom:20px ;
+}
+
+.h-primary{
+    font-size: 35px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+    border: 1px solid white;
+    background-color: rgb(158, 98, 33);
+    color: white;
+    margin: 17px;
+    border-radius: 10px;
+   cursor: pointer;
+    
+}
+
+.c-item{
+    padding: 14px;
+margin: 2px 0px;
+margin-bottom:20px ;
+   
+}
+
+.cap a{
+    color:  #000000;
+    background: rgb(158, 98, 33);
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .cap a:hover{
+    color: #ffffff;
+    background: rgb(180, 140, 98);
+  }
+
